@@ -133,8 +133,6 @@ public class BoardScreen extends JPanel {
         stats.add(go);
         stats.add(quit);
 
-        //String playername = "Player 1";
-        //currPlayer = 0;
         whichPlayer = new JLabel();
         whichPlayer.setText(players.get(currPlayer).getName());
         stats.add(whichPlayer);
